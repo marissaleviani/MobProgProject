@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Complete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/header">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Order Complete\n Thank you!"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp"
+                android:gravity="right"
+                android:textColor="#fff"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <TextView
+                android:id="@+id/subtotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100000"
+                android:gravity="right"
+                android:textColor="#fff"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/completeOrderList"
+            android:layout_width="match_parent"
+            android:layout_height="331dp" />
+
+
+
+        <Button
+            android:id="@+id/doneBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:background="@drawable/orangebtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="Done"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

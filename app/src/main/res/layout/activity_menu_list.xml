@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="326dp"
+           android:layout_height="100dp"
+           android:orientation="vertical">
+
+           <TextView
+
+               android:id="@+id/rowItemName"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="5dp"
+               android:text="Jus Alpukat"
+               android:textColor="#f9813a"
+               android:textSize="20dp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/rowItem"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="5dp"
+               android:text="Jus Alpukat"
+               android:textColor="#fff"
+               android:textSize="15dp"
+               android:textStyle="italic" />
+
+
+           <TextView
+               android:id="@+id/rowItemPrice"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginRight="30dp"
+               android:text="20000"
+               android:textSize="20dp" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="101dp"
+               android:layout_gravity="center"
+               android:src="@drawable/deleteicon" />
+       </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

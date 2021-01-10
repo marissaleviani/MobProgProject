@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Mid Exam Project - Mobile Programming</string>
+    <string name="google_map_key">AIzaSyBcPMojpqtrglsEU6wJw19mUSM0nVhnpEM</string>
+
+    <string name="balance">150500</string>
+
+    <string-array name="drinksItem">
+        <item>Air Mineral</item>
+        <item>Jus Apel</item>
+        <item>Jus Mangga</item>
+        <item>Jus Alpukat</item>
+    </string-array>
+
+    <string-array name="snacksItem">
+        <item>Macaroon</item>
+        <item>French Fries</item>
+        <item>Red Velvet</item>
+        <item>Nachos</item>
+    </string-array>
+
+    <string-array name="foodsItem">
+        <item>Fried Rice</item>
+        <item>Fried Chicken</item>
+        <item>Ramen Shoyu</item>
+        <item>Gado-gado</item>
+    </string-array>
+
+    <string-array name="drinksPrice">
+        <item>7000</item>
+        <item>20000</item>
+        <item>19000</item>
+        <item>20000</item>
+    </string-array>
+
+    <string-array name="snacksPrice">
+        <item>35000</item>
+        <item>26000</item>
+        <item>40000</item>
+        <item>30000</item>
+    </string-array>
+
+    <string-array name="foodsPrice">
+        <item>19500</item>
+        <item>27500</item>
+        <item>40000</item>
+        <item>25000</item>
+    </string-array>
+
+</resources>
